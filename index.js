@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
-        cb(null, "../frontend/src/assets/upload")
+        cb(null, "../frontend/public/upload")
     },
     filename: function (req, file, cb) {
         cb(null, file.originalname)
