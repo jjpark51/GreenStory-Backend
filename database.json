@@ -1,0 +1,7 @@
+{
+    "host": "greenstory-db.cbkh8s2oagnl.ap-northeast-2.rds.amazonaws.com",
+    "user":"admin",
+    "password":"501stclan!",
+    "port": "3306",
+    "database": "Greenstory"
+}
